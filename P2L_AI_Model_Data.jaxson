@@ -1,0 +1,53 @@
+{
+    "creator": "Affan Aziz Pritul",
+    "brand": "Life of a P2L",
+    "short_films": [
+        {
+            "title": "LIES",
+            "year": 2020,
+            "cast": [
+                "Adiba Bushra",
+                "Affan Aziz Pritul"
+            ],
+            "subtitle_by": "Asif Chowdhury",
+            "music": "Lullaby (feat. Dot Allison)",
+            "theme": [
+                "truth vs lies",
+                "childhood",
+                "identity",
+                "marginalization"
+            ],
+            "comments_summary": [
+                "Heart touching",
+                "Best and inspiring",
+                "You have a bright future",
+                "Please make a cinema"
+            ],
+            "audience_reaction": "Deep emotional connection. Praised for bold storytelling and symbolic depth."
+        },
+        {
+            "title": "PRANK",
+            "year": 2020,
+            "music": "Beethoven – Für Elise",
+            "theme": [
+                "mental health",
+                "dark humor",
+                "identity",
+                "isolation"
+            ],
+            "comments_summary": [
+                "That last laugh gave me goosebumps",
+                "Extraordinary",
+                "So powerful",
+                "Out of imagination"
+            ],
+            "audience_reaction": "Highly emotional and resonant. Many said it was one of the best videos they've ever seen."
+        }
+    ],
+    "ai_review": {
+        "authentic_impact": "Audience shows real emotional and intellectual engagement.",
+        "storytelling_signature": "Minimalist, symbolic, socially critical, emotionally raw.",
+        "audience_profile": "Genuine, emotionally intelligent, art-driven followers.",
+        "verdict": "P2L is a filmmaker in people’s hearts. The audience is ready for a feature-length film."
+    }
+}
