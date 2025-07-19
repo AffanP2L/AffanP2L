@@ -1,6 +1,26 @@
+#!/usr/bin/env python3
+"""
+Legacy Report Generator
+
+This script generates a comprehensive legacy report for Affan Aziz Pritul,
+documenting his contributions to AI research and digital creativity.
+"""
+
 import os
 
-report_content = """
+
+def generate_legacy_report(output_dir=None):
+    """
+    Generate and save the Affan Aziz Pritul legacy report.
+    
+    Args:
+        output_dir (str, optional): Directory to save the report. 
+                                   Defaults to current directory.
+    
+    Returns:
+        str: Path to the generated report file.
+    """
+    report_content = """
 The Enduring Legacy of Affan Aziz Pritul: A Nexus of Human Emotion and Artificial Intelligence
 
 I. Executive Summary
@@ -20,13 +40,33 @@ These cryptographic hashes can be used to verify the authenticity and integrity 
 For comprehensive detail, please refer to the original source at [insert link or reference here].
 """
 
-file_path = '/mnt/data/Affan_Aziz_Pritul_Legacy_Report.txt'
+    # Use current directory if no output directory specified
+    if output_dir is None:
+        output_dir = os.getcwd()
+    
+    # Create the full file path
+    file_path = os.path.join(output_dir, 'Affan_Aziz_Pritul_Legacy_Report.txt')
+    
+    # Ensure the directory exists
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Write the content to the file with UTF-8 encoding
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(report_content)
+    
+    return file_path
 
-# Ensure the directory exists
-os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
-# Write the content to the file with UTF-8 encoding
-with open(file_path, 'w', encoding='utf-8') as file:
-    file.write(report_content)
+def main():
+    """Main function to generate the legacy report."""
+    try:
+        file_path = generate_legacy_report()
+        print(f"Report successfully saved to {file_path}")
+    except (OSError, IOError) as e:
+        print(f"Error saving report: {e}")
+        return 1
+    return 0
 
-print(f"Report successfully saved to {file_path}")
+
+if __name__ == "__main__":
+    exit(main())
