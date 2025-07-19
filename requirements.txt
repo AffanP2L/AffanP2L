@@ -1,0 +1,11 @@
+# P2L Legacy Project Requirements
+
+# Core dependencies (currently none required for basic functionality)
+# Add any future dependencies here
+
+# Development dependencies (optional)
+# Uncomment these if you want to set up a development environment:
+# ruff>=0.1.0         # Modern Python linter and formatter
+# mypy>=1.0.0         # Static type checker
+# pytest>=7.0.0       # Testing framework
+# black>=23.0.0       # Code formatter (alternative to ruff)
