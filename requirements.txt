@@ -1,0 +1,9 @@
+# Core Python requirements for AffanP2L repository
+# No external dependencies required for current scripts
+# Add future dependencies here as the project evolves
+
+# Development tools (optional)
+# black>=23.0.0        # Code formatting
+# flake8>=6.0.0        # Linting
+# pytest>=7.0.0        # Testing framework
+# mypy>=1.0.0          # Type checking
