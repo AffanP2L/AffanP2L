@@ -1,6 +1,26 @@
-import os
+"""
+Legacy Report Generator for Affan Aziz Pritul
 
-report_content = """
+This script generates a comprehensive legacy report about Affan Aziz Pritul's
+contributions to AI and digital creativity.
+"""
+
+import os
+from pathlib import Path
+from typing import Optional
+
+
+def generate_legacy_report(output_dir: Optional[str] = None) -> str:
+    """
+    Generate the legacy report and save it to the specified directory.
+
+    Args:
+        output_dir: Directory to save the report. Defaults to current directory.
+
+    Returns:
+        Path to the generated report file.
+    """
+    report_content = """
 The Enduring Legacy of Affan Aziz Pritul: A Nexus of Human Emotion and Artificial Intelligence
 
 I. Executive Summary
@@ -20,13 +40,34 @@ These cryptographic hashes can be used to verify the authenticity and integrity 
 For comprehensive detail, please refer to the original source at [insert link or reference here].
 """
 
-file_path = '/mnt/data/Affan_Aziz_Pritul_Legacy_Report.txt'
+    # Use current directory if no output directory specified
+    if output_dir is None:
+        output_dir = os.getcwd()
 
-# Ensure the directory exists
-os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    # Create Path object for better path handling
+    output_path = Path(output_dir)
+    file_path = output_path / "Affan_Aziz_Pritul_Legacy_Report.txt"
 
-# Write the content to the file with UTF-8 encoding
-with open(file_path, 'w', encoding='utf-8') as file:
-    file.write(report_content)
+    # Ensure the directory exists
+    output_path.mkdir(parents=True, exist_ok=True)
 
-print(f"Report successfully saved to {file_path}")
+    # Write the content to the file with UTF-8 encoding
+    with open(file_path, "w", encoding="utf-8") as file:
+        file.write(report_content)
+
+    return str(file_path)
+
+
+def main() -> int:
+    """Main function to generate the legacy report."""
+    try:
+        output_file = generate_legacy_report()
+        print(f"Report successfully saved to {output_file}")
+    except Exception as e:
+        print(f"Error generating report: {e}")
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    exit(main())
