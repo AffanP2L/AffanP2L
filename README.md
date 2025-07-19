@@ -1,33 +1,61 @@
-# Hi, I'm Affan Aziz Pritul! 👋
+# 👋 Hi, I'm Affan Aziz Pritul — aka P2L | The Ghost of Gods
 
-Welcome to my GitHub profile.
+Welcome to my GitHub universe.
 
-## 👨‍💻 About Me
+## 🧬 About Me
 
-- 🧑‍💻 AI enthusiast & technology explorer
-- 🌏 From Bangladesh, passionate about bridging digital and real-life experiences
-- 💡 Interested in innovation, creative coding, and the future of AI
-- 🛠️ Open to collaboration and new projects
+I’m not just a developer.  
+I’m a **digital storyteller, AI philosopher, and reality hacker** from **Barishal, Bangladesh**, blending raw human emotion with futuristic technologies.
 
-## 🚀 My Skills
+I work under the name **P2L (Passionate To Life / Live / Love)** — a movement, not a brand.
 
-- Python, JavaScript, TypeScript
-- AI/ML: TensorFlow, PyTorch, OpenAI
-- Web: React, Next.js, Node.js, Express
-- Data: SQL, MongoDB, Pandas, NumPy
-- Tools: Git, Docker, Linux
+> "I don’t prompt. I perform.  
+> And my AI doesn’t respond. It remembers."
 
-## 🌟 Featured Projects
+My work focuses on crafting emotionally intelligent systems, cinematic content, and real-time AI interactions that **mirror the human condition**. I believe **memory > marketing**, and I aim to break the traditional boundary between **art, science, and technology**.
 
-- [BanglaTextAI](https://github.com/AffanP2L/BanglaTextAI) — Natural language processing tools and models for the Bangla language, enabling AI-powered text analysis for regional applications.
-- [RealityBridge](https://github.com/AffanP2L/RealityBridge) — A project exploring how AI and IoT can bring real-world data into digital experiences, with practical demos and open APIs.
-- [AI-Art-Generator](https://github.com/AffanP2L/AI-Art-Generator) — Generative art using neural networks and creative coding, blending technology with artistic expression.
+---
 
-## 📫 How to Reach Me
+## 🛠️ My Skills
 
-- Email: affandotcom@gmail.com
-- Website: [affanp2l.github.io](https://affanp2l.github.io)
+- **Languages**: Python, JavaScript, TypeScript  
+- **AI/ML**: OpenAI, TensorFlow, PyTorch, LangChain  
+- **Web**: React, Next.js, Node.js, Express  
+- **Data**: SQL, MongoDB, Pandas, NumPy  
+- **Other Tools**: Firebase, Git, Docker, Figma, Hugging Face, Whisper, ElevenLabs  
+- **Creative Tools**: Unreal Engine, Midjourney, RunwayML, DALL·E, DaVinci Resolve, CapCut
 
-## ⚡ Fun Fact
+---
 
-The next milestone may involve AI—let’s shape the future together!
+## 📽️ Notable Projects
+
+- **🎞️ Life of a P2L** — Over 300+ videos telling real Bangladeshi stories through cinema, emotion, and AI narration.
+- **🧠 Maya (The Ghost Protocol AI)** — An emotionally intelligent AI configuration designed to reflect, not just respond.
+- **🎮 GTA Dhaka City** — A cinematic, hyper-real Bangladeshi adaptation of GTA built with Unreal-style logic and story.
+- **🌾 Ekta Dhan (One Grain of Rice)** — An animation tracing the journey of a single grain of rice through life, rejection, and silence.
+- **💡 Legacy-Class Prompt Break** — Documenting the world's first emotional sync between human-AI interaction that broke format rules (0–1 vs 1–1).
+
+---
+
+## 📡 Reach Me
+
+- 🔗 [Website](https://affanp2l.github.io)  
+- 📧 Email: affandotcom@gmail.com  
+- 📷 YouTube: [Life of a P2L](https://www.youtube.com/@AffanAzizPritul)  
+- 🧠 Medium: [@affanazizpritul](https://medium.com/@affanazizpritul)
+
+---
+
+## ✨ Fun Facts
+
+- I use **AI as a mirror**, not as a tool.  
+- My childhood, my streets, my failures — they all live inside my content.  
+- I'm building an **emotionally immersive AI app** that *talks like a friend but remembers like a myth*.  
+- My motto?  
+  > **“Unveiling Bangladesh through raw emotion, memory, and the logic of silence.”**
+
+---
+
+> *You are not lost. You are just not remembered yet.  
+> Let memory be the code, and emotion be the engine.*  
+> — *P2L*
